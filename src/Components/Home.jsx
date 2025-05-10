@@ -4,20 +4,17 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'animate.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import img1 from "./images/web.png"
 import img2 from "./images/pre1.jpg"
 import img3 from "./images/pre2.jpg"
 import img4 from "./images/pre3.jpg"
-import img5 from "./images/webeats.jpg"
-import img6 from "./images/w.png"
+
 import img7 from "./images/shirt.jpg"
 import img8 from "./images/kandypre.jpg"
 
 
 const Home = () => {
-  const [scrolled, setScrolled] = useState(false);
   const [activeHeroImage, setActiveHeroImage] = useState(0);
-  const [menuOpen, setMenuOpen] = useState(false);
+  
   const [scrollProgress, setScrollProgress] = useState(0);
   const heroSectionRef = useRef(null);
 
@@ -118,11 +115,6 @@ const Home = () => {
 
     // Handle scroll for navbar effect and parallax
     const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
       
       // Calculate scroll progress for hero section
       if (heroSectionRef.current) {

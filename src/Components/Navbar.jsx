@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './navbar.css';
 import { Link } from "react-router-dom";
 import img2 from "./images/webeats.jpg"
-import img3 from "./images/we.png"
 
 
 
@@ -58,7 +57,7 @@ const Navbar = () => {
   return (
     <nav className={`navbar navbar-expand-lg fixed-top ${scrolled ? 'navbar-scrolled' : ''} ${visible ? 'navbar-visible' : 'navbar-hidden'}`}>
       <div className="container">
-        <a className="navbar-brand animate__animated animate__fadeIn" href="#">
+        <a className="navbar-brand animate__animated animate__fadeIn" href="https://twitter.com/username">
        
         <span className="text-primary fw-bold" style={{ marginRight: "4px" }}>WE</span>
   <span className="text-white fw-bold" style={{ marginRight: "10px" }}>BEATS</span>

@@ -17,8 +17,7 @@ import {
   FaInstagram, 
   FaFacebookF, 
   FaTwitter, 
-  FaArchive ,
-  FApaperclip
+  FaArchive 
 } from 'react-icons/fa';
 import AOS from 'aos';
 import 'aos/dist/aos.css';

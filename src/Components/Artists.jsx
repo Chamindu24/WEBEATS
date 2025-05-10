@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaMusic, FaMicrophone, FaHeadphones, FaStar, FaRegStar, FaSearch, FaFacebook, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { FaMusic, FaMicrophone,  FaStar, FaRegStar, FaSearch, FaFacebook, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
 import { GiGuitar, GiPianoKeys, GiDrumKit, GiSaxophone } from 'react-icons/gi';
 import { MdLocationOn, MdEvent } from 'react-icons/md';
 

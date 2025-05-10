@@ -11,7 +11,6 @@ const Contact = () => {
     subject: '',
     message: ''
   });
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // Handle form input changes
   const handleChange = (e) => {
@@ -78,10 +77,7 @@ const Contact = () => {
     return () => observer.disconnect();
   }, [observerCallback]);
 
-  // Toggle mobile menu
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+
 
   const getAnimationClass = (id, animation = 'fadeIn', delay = 0) => {
     if (visibleElements.has(id)) {
@@ -220,16 +216,16 @@ const Contact = () => {
                 <h4 className="mb-3 fw-bold animate__animated animate__fadeIn animate__delay-4s">Follow Our Journey</h4>
                 <p className="text-muted mb-4">Stay connected with us on social media for the latest updates and event highlights</p>
                 <div className="d-flex flex-wrap gap-3 social-icons-container animate__animated animate__fadeIn animate__delay-4s">
-                  <a href="#" className="btn btn-outline-danger rounded-circle p-3 social-icon" aria-label="Facebook">
+                  <a href="https://twitter.com/username" className="btn btn-outline-danger rounded-circle p-3 social-icon" aria-label="Facebook">
                     <FaFacebook size={20} />
                   </a>
-                  <a href="#" className="btn btn-outline-danger rounded-circle p-3 social-icon" aria-label="Twitter">
+                  <a href="https://twitter.com/username" className="btn btn-outline-danger rounded-circle p-3 social-icon" aria-label="Twitter">
                     <FaTwitter size={20} />
                   </a>
-                  <a href="#" className="btn btn-outline-danger rounded-circle p-3 social-icon" aria-label="Instagram">
+                  <a href="https://twitter.com/username" className="btn btn-outline-danger rounded-circle p-3 social-icon" aria-label="Instagram">
                     <FaInstagram size={20} />
                   </a>
-                  <a href="#" className="btn btn-outline-danger rounded-circle p-3 social-icon" aria-label="YouTube">
+                  <a href="https://twitter.com/username" className="btn btn-outline-danger rounded-circle p-3 social-icon" aria-label="YouTube">
                     <FaYoutube size={20} />
                   </a>
                 </div>
@@ -413,7 +409,7 @@ const Contact = () => {
                 <p className="card-text text-muted">
                   We expertly manage every detail of your music events - from intimate venues to large-scale festivals, ensuring a seamless experience.
                 </p>
-                <a href="#" className="btn btn-outline-danger rounded-pill mt-3">Learn More</a>
+                <a href="https://twitter.com/username" className="btn btn-outline-danger rounded-pill mt-3">Learn More</a>
               </div>
             </div>
           </div>
@@ -436,7 +432,7 @@ const Contact = () => {
                 <p className="card-text text-muted">
                   Connect with our exclusive network of established performers and rising stars for your next event with tailored artist matching.
                 </p>
-                <a href="#" className="btn btn-outline-danger rounded-pill mt-3">Learn More</a>
+                <a href="https://twitter.com/username" className="btn btn-outline-danger rounded-pill mt-3">Learn More</a>
               </div>
             </div>
           </div>
@@ -459,14 +455,14 @@ const Contact = () => {
                 <p className="card-text text-muted">
                   Strategic campaigns that amplify your event's visibility and attract your ideal audience through targeted digital and traditional channels.
                 </p>
-                <a href="#" className="btn btn-outline-danger rounded-pill mt-3">Learn More</a>
+                <a href="https://twitter.com/username" className="btn btn-outline-danger rounded-pill mt-3">Learn More</a>
               </div>
             </div>
           </div>
         </div>
 
         <div className="text-center mt-5">
-          <a href="#" className="btn btn-danger btn-lg rounded-pill px-5 py-3 shadow-lg">View All Services</a>
+          <a href="https://twitter.com/username" className="btn btn-danger btn-lg rounded-pill px-5 py-3 shadow-lg">View All Services</a>
         </div>
       </section>
 
@@ -642,7 +638,7 @@ Frequently Asked Questions
 
 {/* Back to Top Button */}
 <a 
-href="#" 
+href="https://twitter.com/username" 
 className="btn btn-danger rounded-circle position-fixed bottom-0 end-0 m-4 shadow-lg back-to-top" 
 style={{width: '45px', height: '45px', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 1000}}
 aria-label="Back to top"

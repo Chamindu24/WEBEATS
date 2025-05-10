@@ -186,9 +186,9 @@ const About = () => {
                 <p className="team-role text-primary">{member.role}</p>
                 <p className="team-bio">{member.bio}</p>
                 <div className="team-social mt-3">
-                  <a href="#" className="social-link"><i className="fab fa-twitter"></i></a>
-                  <a href="#" className="social-link"><i className="fab fa-linkedin"></i></a>
-                  <a href="#" className="social-link"><i className="fab fa-instagram"></i></a>
+                  <a href="https://twitter.com/username" className="social-link"><i className="fab fa-twitter"></i></a>
+                  <a href="https://twitter.com/username" className="social-link"><i className="fab fa-linkedin"></i></a>
+                  <a href="https://twitter.com/username" className="social-link"><i className="fab fa-instagram"></i></a>
                 </div>
               </div>
             </div>

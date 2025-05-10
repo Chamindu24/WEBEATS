@@ -221,7 +221,7 @@ const AdminPortfolio = () => {
                 <p>
                   Exclusive interview discussing WEBEATS' revolutionary approach to music event production and industry transformation.
                 </p>
-                <a href="#" className="btn btn-outline-primary btn-sm">Read Feature</a>
+                <a href="https://twitter.com/username" className="btn btn-outline-primary btn-sm">Read Feature</a>
               </div>
             </div>
             
@@ -237,7 +237,7 @@ const AdminPortfolio = () => {
                 <p>
                   Delivered groundbreaking keynote on technological innovations and audience engagement in music events.
                 </p>
-                <a href="#" className="btn btn-outline-danger btn-sm">View Presentation</a>
+                <a href="https://twitter.com/username" className="btn btn-outline-danger btn-sm">View Presentation</a>
               </div>
             </div>
           </div>

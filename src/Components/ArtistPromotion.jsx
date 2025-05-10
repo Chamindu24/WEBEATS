@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaMicrophone, FaVideo, FaGlobe, FaBullhorn, FaChartLine, FaRocket, FaUsers, FaStar, FaCheck, FaTrophy } from 'react-icons/fa';
+import { FaMicrophone, FaVideo, FaGlobe, FaBullhorn, FaChartLine, FaRocket, FaUsers, FaCheck, FaTrophy } from 'react-icons/fa';
 
 const ArtistPromotion = () => {
   const [activeSection, setActiveSection] = useState('services');

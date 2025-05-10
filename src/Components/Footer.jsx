@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { FaMusic } from 'react-icons/fa';
 import img2 from "./images/webeats.jpg"
 
 

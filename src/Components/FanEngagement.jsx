@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaHeadphones, FaUsers, FaMobile, FaShareAlt, FaCamera, FaHeart, FaStar, FaChartLine } from 'react-icons/fa';
+import { FaUsers, FaMobile, FaShareAlt, FaCamera, FaHeart, FaStar, FaChartLine } from 'react-icons/fa';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
